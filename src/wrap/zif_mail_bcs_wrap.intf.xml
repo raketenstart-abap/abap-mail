@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_MAIL_BCS_WRAP</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Core: Inteface Business Communication Service Wrapper</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_ATTACHMENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>cl_document_bcs-&gt;add_attachment</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_RECIPIENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>cl_document_bcs-&gt;add_recipient</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_SENDER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>cl_bcs-&gt;set_sender</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_DOCUMENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>cl_document_bcs=&gt;create_document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_DOCUMENT_MULTIRELATED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>cl_document_bcs=&gt;create_from_multirelated</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_INTERNET_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>cl_cam_address_bcs=&gt;create_internet_address</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_PERSISTENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>cl_bcs=&gt;create_persistent</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SEND</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>cl_bcs-&gt;send</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_DOCUMENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>cl_bcs-&gt;set_document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>XSTRING_TO_SOLIX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>cl_bcs_convert=&gt;xstring_to_solix</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

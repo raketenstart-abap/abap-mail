@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_MAIL_DOCUMENT_MULTI</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>ABAP Mail: Document Multirelated</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_MAIL_BINARY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Core: Mail Binary Interface</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_MAIL_MULTIRELATED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Help Class for Multipart/Related in Business Workplace</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_MAIL_SIGNATURE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Core: Interface Email Assinatura</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_MAIL_ATTACHMENTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Mail: Attachments</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_MAIL_BINARIES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Mail: Message &quot;Binary&quot;</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_MAIL_BODY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Mail: Message &quot;Content&quot;</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_MAIL_SIGNATURE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Mail: Message &quot;Signature&quot;</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>BUILD_BINARIES</CMPNAME>
+     <SCONAME>RESULT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Mail: Message &quot;Binary&quot; data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>BUILD_BODY</CMPNAME>
+     <SCONAME>RESULT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Mail: Message &quot;Body&quot;</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>BUILD_SIGNATURE</CMPNAME>
+     <SCONAME>RESULT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Mail: Mimetype Properties Repository</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
