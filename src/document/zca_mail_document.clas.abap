@@ -51,7 +51,7 @@ CLASS ZCA_MAIL_DOCUMENT IMPLEMENTATION.
 
     LOOP AT it_attachments INTO DATA(lo_attachment).
       TRY.
-          DATA(ls_attachment) = lo_attachment->utils( )->retrieve_props( ).
+          DATA(ls_attachment) = lo_attachment->utils( )->read_file_metadata( ).
 
           DATA(ls_attachment_hex) = mo_file_scms_wrap->scms_xstring_to_binary(
             iv_buffer = ls_attachment-raw
