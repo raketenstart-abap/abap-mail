@@ -65,7 +65,15 @@ CLASS lcl IMPLEMENTATION.
     result-header-cc        = VALUE #( ( 'a@a.com' ) ).
 
     " body
-    result-body-text_tab    = VALUE #( ( line = '<p>body test multipart</p>' ) ).
+    result-body-text_tab    = VALUE #(
+      ( line = '<h1>body test multipart</h1>' )
+      ( line = '<h2>body test multipart</h2>' )
+      ( line = '<h3>body test multipart</h3>' )
+      ( line = '<h4>body test multipart</h4>' )
+      ( line = '<h5>body test multipart</h5>' )
+      ( line = '<h6>body test multipart</h6>' )
+      ( line = '<p>body test multipart</p>' )
+    ).
 
     " attachments
     result-attachments      = VALUE #(
